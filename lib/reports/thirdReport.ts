@@ -21,14 +21,9 @@ const thirdReport = {
             {
                 uniqueName: "GEBURTSJAHR_HUND",
                 filter: {
-                    members: [
-                        "geburtsjahr_hund.[2010]",
-                        "geburtsjahr_hund.[2011]",
-                        "geburtsjahr_hund.[2012]",
-                        "geburtsjahr_hund.[2013]",
-                        "geburtsjahr_hund.[2014]",
-                        "geburtsjahr_hund.[2015]"
-                    ]
+                   query: {
+                        between: [2010, 2015]
+                    }
                 }
             },
             {
